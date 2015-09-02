@@ -1,0 +1,107 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.home-main {
+    background: url("http://i57.tinypic.com/2gy0kf7.jpg") no-repeat center center;
+    background-size: cover;
+    height: 700px;
+}
+
+.icon-menu {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    cursor: pointer;
+}
+
+.home-main .content {
+    position: relative;
+    top: 150px;
+    text-align: center;
+}
+
+.home-main h1 {
+    color: #fff;
+    font-weight: 100;
+    margin-bottom: 30px;
+    text-align: center;
+    text-shadow: 0 2px 3px rgba(0,0,0,0.4);
+}
+
+h1 {
+    font-size: 50px;
+    display: block;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.home-main .content {
+    //position: relative;
+    //top: 150px;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #2E72BD;
+    border-radius: 0;
+    font-size: 16px;
+    padding: 12px 26px;
+}
+
+.home-supporting, .home-about, .about-supporting {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.home-supporting h2, .home-about h2, .about-supporting h2 {
+    color: #000;
+    margin: 30px 0;
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: 300;
+    display: block;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.home-supporting p {
+    font-size: 21px;
+    font-weight: 100;
+}
+.home-secondary {
+    background: url("http://i57.tinypic.com/2ccqa0y.jpg") no-repeat center center;
+    background-size: cover;
+    height: 500px;
+}
+
+.footer {
+    background-color: #f9f9f9;
+    border-top: solid 1px #F5F5F5;
+    padding: 40px 0 30px 0;
+    text-align: center;
+}
+
+// Menubar Styles
+ .navbar-brand {
+    font-size: 25px;
+    color: #CC3300;
+    
+}
+
+.navbar {
+    font-size: 15px;
+}
