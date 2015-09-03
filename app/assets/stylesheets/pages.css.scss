@@ -134,3 +134,47 @@ h2 {
 .about-supporting p {
     margin-top: 30px;
 }
+
+.contact-main {
+    background: url("http://i59.tinypic.com/2qsmq2d.jpg") no-repeat center center;
+    background-size: cover;
+    height: 700px;
+}
+
+.contact-main .content {
+    position: relative;
+    top: 150px;
+    text-align: center;
+}
+
+.contact-main h1 {
+    color: #fff;
+    font-weight: 100;
+    margin-bottom: 30px;
+    text-shadow: 0 2px 3px rgba(0,0,0,0.4);
+}
+
+form {
+    text-align: left;
+    display: block;
+    margin-top: 0em;
+}
+
+.form-group label {
+    font-size: 16px;
+    color: #fff;
+}
+
+.form-group input {
+    padding: 20px 10px;
+    font-size: 20px;
+}
+
+.form-control, .btn-default {
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 0;
+}
+.btn-default {
+    font-size: 16px;
+    padding: 12px 26px;
+}    

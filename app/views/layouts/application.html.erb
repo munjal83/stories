@@ -20,13 +20,13 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="#" class="navbar-brand">Stories</a>
+      <%= link_to "Stories", root_path, class: 'navbar-brand' %>
     </div>
     <nav id="bs-navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav navbar-right">
         <li><%= link_to "Home", root_path %></li>
         <li><%= link_to "About", pages_about_path %></li>
-        <li><a href="#">Contact</a></li>
+        <li><%= link_to "Contact", new_signup_path %></li>
       </ul>
     </nav>
   </div>
