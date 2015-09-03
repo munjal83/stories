@@ -78,7 +78,7 @@ h2 {
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
 }
-.home-supporting p {
+.home-supporting p, .about-supporting p {
     font-size: 21px;
     font-weight: 100;
 }
@@ -104,4 +104,33 @@ h2 {
 
 .navbar {
     font-size: 15px;
+}
+
+.about-main {
+    background: url("http://i60.tinypic.com/nml0uf.jpg") no-repeat center center;
+    background-size: cover;
+    height: 700px;
+}
+
+.about-main .content {
+    position: relative;
+    top: 150px;
+    text-align: center;
+}
+
+.about-main h1 {
+    color: #fff;
+    font-weight: 100;
+    margin-bottom: 30px;
+    text-shadow: 0 2px 3px rgba(0,0,0,0.4);
+}
+
+.about-main .content {
+    //position: relative;
+    //top: 150px;
+    text-align: center;
+}
+
+.about-supporting p {
+    margin-top: 30px;
 }
